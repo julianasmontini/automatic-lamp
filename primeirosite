@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Título</title>
+</head>
+<body>
+    <h1>título</h1>
+    <h2>subtítulo</h2>
+    <h3>mais título</h3>
+
+<!--este é um comentário que só ficará disponível para programadores, ou seja, não vai aparecer no site, apenas no código-->
+    <p>My firts HTML<p>
+<!--tags para criar links-->
+    <a href="file:///C:/Users/juliana/Documents/Minhas%20M%C3%BAsicas/arquivo2.html" target="_blank" >link que abre nova aba</a>
+    <a href="file:///C:/Users/juliana/Documents/Minhas%20M%C3%BAsicas/arquivo2.html"  >link que será aberto na mesma aba</a>
+
+<!--a div serve como divisões de linhas, ou seja, para que cada item conte em uma linha, será necessário dividir em divs, ou blocoos-->
+  <p> <div>
+       <a href="file:///C:/Users/juliana/Documents/Minhas%20M%C3%BAsicas/arquivo2.html" target="_blank" >link que abre nova aba</a>
+    <div>
+         <div>
+        <a href="file:///C:/Users/juliana/Documents/Minhas%20M%C3%BAsicas/arquivo2.html"  >link que será aberto na mesma aba</a>
+    </div>
+<!-- mais opções de tags de quebra de linha-->
+<br>
+<hr>
+<!--listas-->
+<ol>
+    <li>item 1 da lista</li>
+    <li>item 2 da lista</li>
+    <li>item 3 da lista</li>
+</ol>
+<ul>
+    <li>item 1</li>
+    <li>item 2 </li>
+    <li>item 3</li>
+</ul>
+<!--negrito-->
+<p>como usar o <b>negrito!</b></p>
+também podemos usar a tag "strong" <strong> - fica negrito,mas tem significado diferente</strong>
+
+<!--italico-->
+
+<p>no HTML o <i>italico</i> tem a função de dar enfase</p>
+<p>também é possível usar a tag "em", mas <em>o significado será diferente!<em></p>
+
+<!--barra de navegação - deverá ser preenchida com lista sem ordem e links-->    
+<nav>
+<h2>Não desista!</h2>
+<ul>
+    <li><a href="#" >você<a></li>
+    <li><a href="#" >vai<a></li>
+    <li><a href="#" >conquistar<a></li>
+    <li><a href="#" >tudo<a></li>
+    <li><a href="#" >que<a></li>
+    <li><a href="#" >deseja!<a></li>
+</ul>
+    <nav>
+<sction>
+<h1>O começo</h1>
+<p>
+    lembre-se sempre do motivo que te levou a começar e onde você quer chegar!
+</p>
+<sction>
+<!--imagens-->
+<img src="https://i.pinimg.com/564x/e9/07/0c/e9070c1378ee59ba154dded2d52ce3e7.jpg" alt="não desista!" > 
+
+<!--como fazer roda-pé-->
+<footer>
+    <p>Juju S M &copy; 2022 </p>
+</footer>
+
+</body>
+</html>
